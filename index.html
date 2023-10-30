@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <main>
+      <div class="blur"></div>
+      <img src="./images/login.svg" alt="imagem de login - homem com mala" />
+
+      <h1>Welcome Back 😃</h1>
+
+      <div class="container-inputs">
+        <label for="email">Email</label>
+        <input placeholder="Email" type="email" id="email" />
+
+        <label for="password">Password</label>
+        <input placeholder="Senha" type="password" id="password" />
+      </div>
+
+      <button class="btn-login">
+        Log In
+        <i class="bx bx-chevron-right"></i>
+      </button>
+      <button class="btn-google">
+        <img src="./images/icon-google.svg" alt="Logo do Google" />
+        Log In with Google
+      </button>
+
+      <div class="container-link">
+        <a href="./signup.html"
+          >Newbie?
+          <span>Create Account</span>
+        </a>
+      </div>
+    </main>
+  </body>
+</html>
